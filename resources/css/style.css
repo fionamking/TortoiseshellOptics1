@@ -43,7 +43,7 @@ header {
   color: white;
   width: 100%;
   margin: 1rem auto 0 auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   align-items: center;
 
 }
@@ -89,47 +89,93 @@ header {
 
 .icons {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
 
   color: black;
   margin: 0 auto;
-  border: 1px solid black;
-  height: 15rem;
+  /*border: 1px solid red;*/
+  height: 13rem;
   max-width: 960px;
   width: 100%;
-
-
-}
-img {
 
 
 }
 
 .exams {
   display: block;
-  padding: 3rem;
-  border: 1px solid black;
-  height: 8rem;
-  width: 100%;
+  align-items: center;
+  /*padding: 3rem 0rem;*/
+  /*border: 1px solid blue;*/
+}
 
+.exams img {
+  display: block;
+  padding: 3rem 0 1rem 2rem;
+  /*border: 1px solid green;*/
+  height: 4rem;
+  width: 3rem;
+
+}
+
+ .exams p {
+  /*display: block;*/
+  /*border: 1px solid black;*/
+  width: 7rem;
+  text-align: center;
+  line-height: 1.4rem;
 
 }
 
 .fittings {
   display: block;
-  padding: 3rem;
-  border: 1px solid black;
-  height: 8rem;
-  width: 100%;
+  align-items: center;
+  /*padding: 3rem 6rem;*/
+  /*border: 1px solid blue;*/
+}
 
+.fittings img {
+  display: block;
+  padding: 3rem 6rem 2rem 6rem;
+  /*border: 1px solid green;*/
+  height: 3rem;
+  width: 4rem;
+
+}
+
+.fittings p {
+  display: block;
+  /*border: 1px solid black;*/
+  width: 4rem;
+  text-align: center;
+  line-height: 1.4rem;
+  padding: 0 6rem;
 }
 
 .delivery {
   display: block;
-  padding: 3rem;
-  border: 1px solid black;
-  height: 8rem;
-  width: 100%;
+  align-items: center;
+  /*padding: 3rem 0rem;*/
+}
 
+.delivery img {
+  display: block;
+  /*padding: 3rem;*/
+  /*border: 1px solid black;*/
+  height: 3rem;
+  width: 4rem;
+  padding: 3rem 0 1rem 0;
+
+
+}
+
+.delivery p {
+  display: block;
+  /*border: 1px solid black;*/
+  width: 4rem;
+  text-align: center;
+  line-height: 1.4rem;
 }
 
 /*Philosophy and Appointments*/
